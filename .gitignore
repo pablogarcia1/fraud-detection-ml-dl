@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.env
+.venv/
+
+# PyCharm specific settings
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Datasets (NUNCA subas datos sensibles o pesados a GitHub)
+*.csv
+*.xlsx
+data/
+raw_data/
+processed_data/
+
+# Model weights (si son muy pesados, mejor usar Git LFS, pero por ahora ignóralos)
+*.h5
+*.pkl
+*.pt
