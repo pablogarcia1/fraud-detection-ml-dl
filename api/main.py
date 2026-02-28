@@ -81,6 +81,6 @@ def predecir_fraude(datos: Transaccion):
 
 
 # 5. Endpoint de salud
-@app.g
+@app.get("/")
 def health_check():
     return {"status": "API Activa", "modelo": "XGBoost Optimizado"}
